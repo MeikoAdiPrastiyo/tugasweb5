@@ -1,6 +1,6 @@
 const images = document.querySelectorAll("#img1, #img2, #img3");
 images.forEach((img) => {
-  console.log(`Image with ID ${img.id} has been set with a click event.`);
+  console.log(`Image with ID ${img.id} has been set with a click event.`); //Optional
   img.addEventListener("click", function () {
     const basket = document.getElementById("basket");
     const flowerClone = img.cloneNode(true);
